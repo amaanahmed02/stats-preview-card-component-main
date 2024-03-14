@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Figtree:ital,wght@0,300..900;1,300..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:wght@100..900&family=Lexend+Deca:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Young+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Figtree:ital,wght@0,300..900;1,300..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:wght@100..900&family=Lexend+Deca:wght@700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Young+Serif&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: hsl(233, 47%, 7%);
+  display: grid;
+  place-items: center;
+  min-height: 85vh;
+  margin-block: 100px 0;
+}
+main {
+  overflow: hidden;
+  border-radius: 7px;
+}
+.container {
+  display: flex;
+  max-width: 1000px;
+  min-width: 500px;
+  height: 60vh;
+}
+.picture {
+  position: relative;
+  width: 50%;
+}
+.picture .overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0px;
+  bottom: 0;
+  background-color: hsla(277, 48%, 36%, 0.539);
+  z-index: 2;
+}
+img {
+  height: 100%;
+  position: relative;
+  z-index: 1;
+}
+.content {
+  background-color: hsl(244, 38%, 16%);
+  font-family: "Inter", sans-serif;
+  padding: 60px;
+}
+h1 {
+  color: hsl(0, 0%, 100%);
+  padding-block: 30px;
+}
+h1 span {
+  color: hsl(277, 64%, 61%);
+}
+.description {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-size: 15px;
+  padding-block: 0 30px;
+  line-height: 28px;
+}
+.numbers {
+  font-family: "Inter", sans-serif;
+  color: hsl(0, 0%, 100%);
+  font-weight: 700;
+  font-size: 20px;
+}
+.details {
+  font-family: "Lexend Deca", sans-serif;
+  color: hsla(0, 0%, 100%, 0.6);
+  font-weight: 400;
+  font-size: 10px;
+}
+.attribution {
+  text-align: center;
+  color: hsl(0, 0%, 100%);
+  font-family: "Inter", sans-serif;
+  /* margin-bottom: 1rem; */
+  align-self: self-end;
+}
+.stats {
+  display: flex;
+  padding-top: 30px;
+  gap: 60px;
+}
+a:hover {
+  color: white;
+}
+a {
+  color: hsl(277, 64%, 61%);
+}
